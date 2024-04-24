@@ -11,6 +11,9 @@
 		BF95D5AA2BD7E17F00EA1657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D5A92BD7E17F00EA1657 /* ContentView.swift */; };
 		BF95D5AC2BD7E18100EA1657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF95D5AB2BD7E18100EA1657 /* Assets.xcassets */; };
 		BF95D5AF2BD7E18100EA1657 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF95D5AE2BD7E18100EA1657 /* Preview Assets.xcassets */; };
+		BF95D5B62BD7E53300EA1657 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D5B52BD7E53300EA1657 /* Login.swift */; };
+		BF95D5B82BD7F74B00EA1657 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D5B72BD7F74B00EA1657 /* Sign.swift */; };
+		BF95D5BA2BD7FB9E00EA1657 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D5B92BD7FB9E00EA1657 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BF95D5A92BD7E17F00EA1657 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF95D5AB2BD7E18100EA1657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF95D5AE2BD7E18100EA1657 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF95D5B52BD7E53300EA1657 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		BF95D5B72BD7F74B00EA1657 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		BF95D5B92BD7FB9E00EA1657 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		BF95D5A62BD7E17F00EA1657 /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
+				BF95D5B92BD7FB9E00EA1657 /* Home.swift */,
+				BF95D5B72BD7F74B00EA1657 /* Sign.swift */,
+				BF95D5B52BD7E53300EA1657 /* Login.swift */,
 				BF95D5A72BD7E17F00EA1657 /* LoginScreenApp.swift */,
 				BF95D5A92BD7E17F00EA1657 /* ContentView.swift */,
 				BF95D5AB2BD7E18100EA1657 /* Assets.xcassets */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF95D5B62BD7E53300EA1657 /* Login.swift in Sources */,
 				BF95D5AA2BD7E17F00EA1657 /* ContentView.swift in Sources */,
+				BF95D5BA2BD7FB9E00EA1657 /* Home.swift in Sources */,
+				BF95D5B82BD7F74B00EA1657 /* Sign.swift in Sources */,
 				BF95D5A82BD7E17F00EA1657 /* LoginScreenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
